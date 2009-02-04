@@ -24,6 +24,7 @@ BuildRequires: xmonad = %{version}
 BuildRequires: haskell-X11 = %{X11_version}
 BuildRequires: ghc = %{ghc_version}
 BuildRequires: libxinerama-devel, libx11-devel, libxext-devel
+BuildRequires: haddock, haskell-macros
 Requires: xmonad = %{version}
 Requires:       ghc = %{ghc_version}
 Requires(post): ghc = %{ghc_version}
