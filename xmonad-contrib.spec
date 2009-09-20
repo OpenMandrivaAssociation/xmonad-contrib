@@ -10,7 +10,7 @@
 
 Name:           xmonad-contrib
 Version:        0.8.1
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        Haskell %{name} library - Third party extensions for xmonad
 
 Group:          Development/Other
