@@ -16,8 +16,9 @@ Source0:        http://hackage.haskell.org/packages/archive/%{name}/%{version}/%
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Provides:       %{name}-devel = %{version}-%{release}
 BuildRequires: xmonad = %{version}
-BuildRequires: haskell-X11 = %{X11_version}
-BuildRequires: ghc = %{ghc_version}
+BuildRequires: haskell(X11) >= 1.4.6.1
+BuildRequires: haskell(utf8-string)
+BuildRequires: ghc >= %{ghc_version}
 BuildRequires: libxinerama-devel, libx11-devel, libxext-devel
 BuildRequires: haddock, haskell-macros
 Requires: xmonad = %{version}
