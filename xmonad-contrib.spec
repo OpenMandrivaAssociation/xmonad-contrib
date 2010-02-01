@@ -8,9 +8,9 @@
 Name:           xmonad-contrib
 Version:        0.9
 Release:        %mkrel 1
-Summary:        Haskell %{name} library - Third party extensions for xmonad
+Summary:        Third party extensions for xmonad
 Group:          Development/Other
-License:        BSD3
+License:        BSD
 URL:            http://hackage.haskell.org/cgi-bin/hackage-scripts/package/%{name}
 Source0:        http://hackage.haskell.org/packages/archive/%{name}/%{version}/%{name}-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -20,14 +20,14 @@ BuildRequires: haskell(X11) >= 1.4.6.1
 BuildRequires: haskell(utf8-string)
 BuildRequires: ghc >= %{ghc_version}
 BuildRequires: libxinerama-devel, libx11-devel, libxext-devel
-BuildRequires: haddock, haskell-macros
+BuildRequires: haddock, haskell-macros, haskell-utf8-string
 Requires: xmonad = %{version}
 Requires:       ghc = %{ghc_version}
 Requires(post): ghc
 Requires(preun): ghc
 
 %description
-Haskell %{pkg_name} library for ghc-%{ghc_version}.
+Haskell xmonad-contrib library for ghc-%{ghc_version}.
 
 Third party tiling algorithms, configurations and scripts to xmonad,
 a tiling window manager for X.
