@@ -7,7 +7,7 @@
 
 Name:           xmonad-contrib
 Version:        0.9
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        Third party extensions for xmonad
 Group:          Development/Other
 License:        BSD
