@@ -4,7 +4,7 @@
 %define module  xmonad-contrib
 Name:           %{module}
 Version:        0.10
-Release:        1
+Release:        2
 Summary:        Third party extensions for xmonad
 Group:          Development/Other
 License:        BSD
